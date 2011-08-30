@@ -29,23 +29,6 @@
 	// Nothing to do here for this simple app...
 }
 
-#pragma mark - NSTableViewDataSource
-
-- (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
-	return [self.items count];
-}
-
-- (NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
-	ItemCellView *result = [tableView makeViewWithIdentifier:tableColumn.identifier owner:self];
-	Item *item = [self.items objectAtIndex:row];
-	result.imageView.image = item.itemIcon;
-	result.textField.stringValue = item.itemDisplayName;
-	result.detailTextField.stringValue = item.itemKind;
-	return result;
-}
-
-#pragma mark - NSTableViewDelegate
-
 #pragma mark - Login items
 
 - (NSArray *)items {
