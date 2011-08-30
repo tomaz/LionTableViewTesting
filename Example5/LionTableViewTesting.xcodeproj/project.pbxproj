@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73002CDB140ABCF60035299A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73002CDA140ABCF60035299A /* Cocoa.framework */; };
+		73002CE5140ABCF60035299A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73002CE3140ABCF60035299A /* InfoPlist.strings */; };
+		73002CE7140ABCF60035299A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73002CE6140ABCF60035299A /* main.m */; };
+		73002CEB140ABCF60035299A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 73002CE9140ABCF60035299A /* Credits.rtf */; };
+		73002CEE140ABCF60035299A /* LionTableViewTestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73002CED140ABCF60035299A /* LionTableViewTestingAppDelegate.m */; };
+		73002CF1140ABCF60035299A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73002CEF140ABCF60035299A /* MainMenu.xib */; };
+		73002CF9140AD6570035299A /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 73002CF8140AD6570035299A /* Item.m */; };
+		73D521E7140B6DA400D98CC2 /* ItemCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D521E6140B6DA400D98CC2 /* ItemCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73002CD6140ABCF60035299A /* LionTableViewTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionTableViewTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73002CDA140ABCF60035299A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		73002CDD140ABCF60035299A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		73002CDE140ABCF60035299A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		73002CDF140ABCF60035299A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73002CE2140ABCF60035299A /* LionTableViewTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LionTableViewTesting-Info.plist"; sourceTree = "<group>"; };
+		73002CE4140ABCF60035299A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73002CE6140ABCF60035299A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73002CE8140ABCF60035299A /* LionTableViewTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LionTableViewTesting-Prefix.pch"; sourceTree = "<group>"; };
+		73002CEA140ABCF60035299A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		73002CEC140ABCF60035299A /* LionTableViewTestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LionTableViewTestingAppDelegate.h; sourceTree = "<group>"; };
+		73002CED140ABCF60035299A /* LionTableViewTestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionTableViewTestingAppDelegate.m; sourceTree = "<group>"; };
+		73002CF0140ABCF60035299A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		73002CF7140AD6570035299A /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		73002CF8140AD6570035299A /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		73D521E5140B6DA400D98CC2 /* ItemCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCellView.h; sourceTree = "<group>"; };
+		73D521E6140B6DA400D98CC2 /* ItemCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73002CD3140ABCF60035299A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73002CDB140ABCF60035299A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73002CCB140ABCF60035299A = {
+			isa = PBXGroup;
+			children = (
+				73002CE0140ABCF60035299A /* LionTableViewTesting */,
+				73002CD9140ABCF60035299A /* Frameworks */,
+				73002CD7140ABCF60035299A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73002CD7140ABCF60035299A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73002CD6140ABCF60035299A /* LionTableViewTesting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73002CD9140ABCF60035299A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73002CDA140ABCF60035299A /* Cocoa.framework */,
+				73002CDC140ABCF60035299A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73002CDC140ABCF60035299A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73002CDD140ABCF60035299A /* AppKit.framework */,
+				73002CDE140ABCF60035299A /* CoreData.framework */,
+				73002CDF140ABCF60035299A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		73002CE0140ABCF60035299A /* LionTableViewTesting */ = {
+			isa = PBXGroup;
+			children = (
+				73002CF7140AD6570035299A /* Item.h */,
+				73002CF8140AD6570035299A /* Item.m */,
+				73D521E5140B6DA400D98CC2 /* ItemCellView.h */,
+				73D521E6140B6DA400D98CC2 /* ItemCellView.m */,
+				73002CEC140ABCF60035299A /* LionTableViewTestingAppDelegate.h */,
+				73002CED140ABCF60035299A /* LionTableViewTestingAppDelegate.m */,
+				73002CEF140ABCF60035299A /* MainMenu.xib */,
+				73002CE1140ABCF60035299A /* Supporting Files */,
+			);
+			path = LionTableViewTesting;
+			sourceTree = "<group>";
+		};
+		73002CE1140ABCF60035299A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73002CE2140ABCF60035299A /* LionTableViewTesting-Info.plist */,
+				73002CE3140ABCF60035299A /* InfoPlist.strings */,
+				73002CE6140ABCF60035299A /* main.m */,
+				73002CE8140ABCF60035299A /* LionTableViewTesting-Prefix.pch */,
+				73002CE9140ABCF60035299A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73002CD5140ABCF60035299A /* LionTableViewTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73002CF4140ABCF60035299A /* Build configuration list for PBXNativeTarget "LionTableViewTesting" */;
+			buildPhases = (
+				73002CD2140ABCF60035299A /* Sources */,
+				73002CD3140ABCF60035299A /* Frameworks */,
+				73002CD4140ABCF60035299A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionTableViewTesting;
+			productName = LionTableViewTesting;
+			productReference = 73002CD6140ABCF60035299A /* LionTableViewTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73002CCD140ABCF60035299A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 73002CD0140ABCF60035299A /* Build configuration list for PBXProject "LionTableViewTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73002CCB140ABCF60035299A;
+			productRefGroup = 73002CD7140ABCF60035299A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73002CD5140ABCF60035299A /* LionTableViewTesting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73002CD4140ABCF60035299A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73002CE5140ABCF60035299A /* InfoPlist.strings in Resources */,
+				73002CEB140ABCF60035299A /* Credits.rtf in Resources */,
+				73002CF1140ABCF60035299A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73002CD2140ABCF60035299A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73002CE7140ABCF60035299A /* main.m in Sources */,
+				73002CEE140ABCF60035299A /* LionTableViewTestingAppDelegate.m in Sources */,
+				73002CF9140AD6570035299A /* Item.m in Sources */,
+				73D521E7140B6DA400D98CC2 /* ItemCellView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73002CE3140ABCF60035299A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73002CE4140ABCF60035299A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73002CE9140ABCF60035299A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73002CEA140ABCF60035299A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		73002CEF140ABCF60035299A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73002CF0140ABCF60035299A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73002CF2140ABCF60035299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		73002CF3140ABCF60035299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73002CF5140ABCF60035299A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionTableViewTesting/LionTableViewTesting-Prefix.pch";
+				INFOPLIST_FILE = "LionTableViewTesting/LionTableViewTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73002CF6140ABCF60035299A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LionTableViewTesting/LionTableViewTesting-Prefix.pch";
+				INFOPLIST_FILE = "LionTableViewTesting/LionTableViewTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73002CD0140ABCF60035299A /* Build configuration list for PBXProject "LionTableViewTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73002CF2140ABCF60035299A /* Debug */,
+				73002CF3140ABCF60035299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73002CF4140ABCF60035299A /* Build configuration list for PBXNativeTarget "LionTableViewTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73002CF5140ABCF60035299A /* Debug */,
+				73002CF6140ABCF60035299A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73002CCD140ABCF60035299A /* Project object */;
+}
