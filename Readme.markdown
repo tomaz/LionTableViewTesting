@@ -5,8 +5,8 @@ Example projects demonstrating how OS X 10.7 Lion view-based table views are han
 
 This is companion code for two part blog post:
 
-* [Part 1 - basics]()
-* [Part 2 - bindings and animations]()
+* [Part 1 - basics](http://www.gentlebytes.com/2011/08/view-based-table-views-in-lion-part-1-of-2/)
+* [Part 2 - bindings and animations](http://www.gentlebytes.com/2011/08/view-based-table-views-in-lion-part-2-of-2/)
 
 The code is provided under MIT license as stated below.
 
